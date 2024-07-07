@@ -8,14 +8,14 @@ class Settings(BaseSettings):
     API_HASH: str
 
     MIN_AVAILABLE_ENERGY: int = 100
-    SLEEP_BY_MIN_ENERGY: list[int] = [1800, 2400]
+    SLEEP_BY_MIN_ENERGY: list[int] = [180, 240]
 
     ADD_TAPS_ON_TURBO: int = 2500
 
     AUTO_UPGRADE: bool = True
     MAX_LEVEL: int = 20
 
-    BALANCE_TO_SAVE: int = 1000000
+    BALANCE_TO_SAVE: int = 1000000000
     UPGRADES_COUNT: int = 10
 
     MAX_COMBO_PRICE: int = 10000000
